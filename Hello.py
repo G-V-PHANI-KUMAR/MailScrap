@@ -6,6 +6,7 @@ urls = ["https://engineering.buffalo.edu/computer-science-engineering/people/fac
         "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.emeriti.html",
         ]
 mails=[]
+#Scrape Mails
 for url in urls:
     regex = r"[a-z]+?\.?[a-z0-9]+@[a-z]+\.[a-z]+"
     r = requests.get(url)
