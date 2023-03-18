@@ -1,6 +1,7 @@
 import re
 import requests
-urls = ["https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.html",
+urls = [
+        "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.html",
         "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.adjunct.html",
         "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.affiliated.html",
         "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.emeriti.html",
